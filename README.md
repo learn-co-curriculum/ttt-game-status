@@ -74,6 +74,8 @@ Iterate over the possible win combinations defined in `WIN_COMBINATIONS` and che
 ```
 for each win_combination in WIN_COMBINATIONS
   # win_combination is a 3 element array of indexes that compose a win, [0,1,2]
+	
+	[This next line, and the "pseudocode" below are total word-salad.  They make no sense to your average student - ME!  I have no idea, none, about what this is supposed to be illustrating.  Super frustrating to have this nonsense to help explain such a difficult lab.]
   # grab each index from the win_combination that composes a win.
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
@@ -207,3 +209,5 @@ winner(no_winner_board) #=> nil
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-game-status' title='Tic Tac Toe Game Status'>Tic Tac Toe Game Status</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ttt-game-status'>Tic Tac Toe Game Status</a> on Learn.co and start learning to code for free.</p>
