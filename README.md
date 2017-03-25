@@ -176,7 +176,7 @@ You can imagine its behavior:
 
 ### `#over?`
 
-Build a method `#over?` that accepts a board and returns true if the board has been won, is a draw, or is full. You should be able to compose this method solely using the methods you used above with some ruby logic.
+Build a method `#over?` that accepts a board and returns true if the board has been won or is a draw. You should be able to compose this method solely using the methods you used above with some ruby logic.
 
 ```ruby
 draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
@@ -207,3 +207,5 @@ winner(no_winner_board) #=> nil
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-game-status' title='Tic Tac Toe Game Status'>Tic Tac Toe Game Status</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ttt-game-status'>Tic Tac Toe Game Status</a> on Learn.co and start learning to code for free.</p>
