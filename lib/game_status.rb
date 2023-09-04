@@ -15,6 +15,10 @@ def full?(board)
   board.all? {|token| token == "X" || token == "O"}
 end
 
+def draw?(board)
+  full?(board) && !won?(board)
+end
+
 
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
